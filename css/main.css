@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, #00c9ff, #92fe9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-color: #f7ecde; */
+    /* background-image: url(../books-378903_1280.jpg);
+    background-size: cover; */
+    /* width: 100%; */
+    /* background-position: center center; */
+    height: 100vh;
+    
+    /* background-repeat: no-repeat; */
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #352e28;
+    font-size: 50px;
+    position: relative;
+    
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 23%;
+    bottom:10px; 
+    background: linear-gradient(to top, #ff4e50, #f9d423);
+    z-index: -1; 
+}
+h1:hover:before{
+    height: 50%;
+    /* color: white; */
+    /* background: linear-gradient(to top, #fff, #f9d463); */
+}
+.title span {
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    background: linear-gradient(to right, #ff4e50, #f9d423);   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.btn{
+    padding: 10px 50px;
+}
+.title i{
+    font-size: 25px;
+    background: linear-gradient(to right, #ff4e50, #f9d423); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title{
+    /* border-top: #352e28 dotted 2px; */
+}
+.container table{
+    /* border-top: #352e28 dotted 2px; */
+}
